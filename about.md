@@ -1,4 +1,4 @@
-# Inspiration City
+# 🗺️ Inspiration City
 
 Something is missing from most conversations about AI.
 
