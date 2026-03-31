@@ -1,0 +1,256 @@
+# Inference, Orchestration, or Homes  
+## Rethinking Where Intelligence Lives  
+
+### Contents  
+1. Introduction  
+2. The Dominant Paths: Inference and Orchestration  
+3. The Limits of Black Boxes  
+4. The Fragility of Exoskeletons  
+5. A Third Model: Intelligence as Place  
+6. Location-Based Context
+7. The Role of the Human  
+8. Architectural Implications  
+9. Conclusion  
+
+---  
+
+## 1. Introduction  
+
+AI development is accelerating. But beneath the rapid progress lies a quieter question:
+
+**Where does intelligence actually live?**
+
+Most current systems answer this in one of two ways.  
+Either intelligence lives inside increasingly powerful models—or it emerges from increasingly complex orchestration layers wrapped around them.
+
+Inspiration City begins from a different premise:
+
+> Intelligence does not need to be centralized in models or assembled through orchestration.  
+> It can be encoded in environments—in the places where work actually happens.
+
+This paper explores three competing paradigms:
+
+- **Inference** — intelligence inside the model  
+- **Orchestration** — intelligence in the control layer  
+- **Homes** — intelligence embedded in place  
+
+And argues that the future may belong to the third.
+
+---
+
+## 2. The Dominant Paths: Inference and Orchestration  
+
+Modern AI systems largely follow two trajectories.
+
+### Inference  
+
+Frontier labs pursue ever more capable models. Intelligence is concentrated inside large neural networks—trained on vast datasets and refined through scaling.
+
+These systems are powerful, but:
+
+- Their reasoning is **opaque**  
+- Their behavior is **probabilistic**  
+- Their internal state is **inaccessible**  
+
+They function as oracles. You ask—they answer.
+
+### Orchestration  
+
+A second approach builds layers around these models.
+
+Agents are given:
+
+- Tools  
+- APIs  
+- Memory systems  
+- Planning loops  
+
+This creates the appearance of autonomy.
+
+But here, intelligence is not in the model—it is in the **harness** that coordinates it.
+
+---
+
+## 3. The Limits of Black Boxes  
+
+Inference-based systems face a fundamental constraint:
+
+> Intelligence that cannot be inspected cannot be fully trusted.
+
+Even when outputs are correct, the process remains hidden.
+
+This leads to:
+
+- Fragility under edge cases  
+- Difficulty in debugging  
+- Limited composability  
+- High cognitive load for users trying to “steer” behavior  
+
+The model may be powerful—but it is not situated.
+
+It does not know where it is.
+
+---
+
+## 4. The Fragility of Exoskeletons  
+
+Orchestration attempts to solve this by layering structure on top.
+
+But this introduces a different set of problems:
+
+- Increasing system complexity  
+- Token inefficiency  
+- Hard-to-predict interactions between components  
+- Expanding security surface  
+
+Each new capability requires:
+
+- More prompts  
+- More glue code  
+- More coordination  
+
+The result is often a fragile system—powerful, but difficult to reason about.
+
+> Harnesses scale capability.  
+> They also scale entropy.
+
+---
+
+## 5. A Third Model: Intelligence as Place  
+
+Inspiration City proposes a different foundation:
+
+> Intelligence can be encoded directly into environments.
+
+Instead of asking:
+
+- “How do we make the model smarter?”  
+- “How do we orchestrate more tools?”  
+
+We ask:
+
+> “What if the workspace itself carried intelligence?”
+
+In this model, meaning and capability are not hidden in prompts or pipelines.
+
+They are expressed through **structure**:
+
+- Files  
+- Folders  
+- Commands  
+- Time  
+
+A location is no longer just storage.  
+It becomes a **contextual system**.
+
+---
+
+## 6. Location-Based Context
+
+We call this approach location-base context.
+
+A home is a place where:
+
+- Memory is persistent  
+- Capabilities are local  
+- Behavior is shaped by structure  
+
+Agents do not operate from a detached control layer.  
+They **inhabit** these spaces.
+
+This changes everything.
+
+Instead of assembling a temporary harness for each task, the system becomes:
+
+- Stable  
+- Inspectable  
+- Composable  
+
+A folder can carry:
+
+- Skills  
+- Tools  
+- Automations  
+- Identity  
+
+> Every folder becomes a harness.  
+> But unlike traditional harnesses—it is visible, durable, and shared.
+
+---
+
+## 7. The Role of the Human  
+
+This model restores a central role to the human.
+
+In inference systems, the human prompts.  
+In orchestration systems, the human configures.
+
+In homes:
+
+> The human **builds environments**.
+
+This is a higher-leverage activity.
+
+Instead of managing outputs, the human shapes:
+
+- Structure  
+- Context  
+- Relationships  
+
+And from that structure, intelligent behavior emerges naturally.
+
+The system becomes something you can:
+
+- Walk through  
+- Understand  
+- Refine  
+
+Not just query.
+
+---
+
+## 8. Architectural Implications  
+
+This shift leads to several important consequences.
+
+### 1. Deterministic Substrate, Probabilistic Interface  
+The environment is stable.  
+AI operates within it.
+
+### 2. Explicit Context over Hidden State  
+Context is visible in the filesystem—not buried in prompts.
+
+### 3. Composability through Location  
+Capabilities are attached to places, not centralized systems.
+
+### 4. Reduced Orchestration Overhead  
+Fewer layers are needed when intelligence is already embedded.
+
+### 5. Shared Command Surface  
+Humans and agents operate through the same interface.
+
+---
+
+## 9. Conclusion  
+
+Inference made intelligence powerful.  
+Orchestration made it usable.
+
+But both still treat intelligence as something external—  
+something we must summon, direct, and control.
+
+Homes offer a different vision.
+
+> Intelligence is not something we call.  
+> It is something we **live inside**.
+
+By embedding intelligence into environments, we move from:
+
+- Asking systems to think for us  
+to  
+- Building spaces that think with us  
+
+This is not just a technical shift.  
+It is a philosophical one.
+
+And it may define the next era of human–AI interaction.
