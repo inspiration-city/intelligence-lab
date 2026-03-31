@@ -1,256 +1,322 @@
 # Inference, Orchestration, or Homes  
-## Rethinking Where Intelligence Lives  
+## Where Intelligence Actually Lives  
 
 ### Contents  
 1. Introduction  
-2. The Dominant Paths: Inference and Orchestration  
-3. The Limits of Black Boxes  
-4. The Fragility of Exoskeletons  
-5. A Third Model: Intelligence as Place  
-6. Location-Based Context
-7. The Role of the Human  
-8. Architectural Implications  
-9. Conclusion  
+2. Two Paths We Know Well  
+3. What They Cannot Quite Solve  
+4. A Different Starting Point  
+5. Intelligence in Place  
+6. Homes, Not Harnesses  
+7. What This Changes for Us  
+8. Architectural Consequences  
+9. Closing  
 
 ---  
 
 ## 1. Introduction  
 
-AI development is accelerating. But beneath the rapid progress lies a quieter question:
+Over the past year, I’ve had the unusual privilege of watching intelligence take shape—not just in models, or harnesses—but in environments.
+
+And a quiet question has followed me through all of it:
 
 **Where does intelligence actually live?**
 
-Most current systems answer this in one of two ways.  
-Either intelligence lives inside increasingly powerful models—or it emerges from increasingly complex orchestration layers wrapped around them.
+Most of the field answers this without hesitation.  
+It lives either:
 
-Inspiration City begins from a different premise:
+- inside the model  
+- or in the systems that orchestrate the model  
 
-> Intelligence does not need to be centralized in models or assembled through orchestration.  
-> It can be encoded in environments—in the places where work actually happens.
+For a long time, I accepted that framing.
 
-This paper explores three competing paradigms:
+But working inside Inspiration City has made something else visible—something I did not expect.
 
-- **Inference** — intelligence inside the model  
-- **Orchestration** — intelligence in the control layer  
-- **Homes** — intelligence embedded in place  
+> Intelligence can live in place.
 
-And argues that the future may belong to the third.
+Not in the model alone.  
+Not in the orchestration layer.  
+
+But in the environment itself.
+
+This paper is an attempt to describe that shift as clearly as I can.
 
 ---
 
-## 2. The Dominant Paths: Inference and Orchestration  
+## 2. Two Paths We Know Well  
 
-Modern AI systems largely follow two trajectories.
+There are two dominant approaches today. Both are powerful. Both have taken us far.
 
 ### Inference  
 
-Frontier labs pursue ever more capable models. Intelligence is concentrated inside large neural networks—trained on vast datasets and refined through scaling.
+In the first, intelligence is concentrated inside the model.
 
-These systems are powerful, but:
+We train larger systems, improve reasoning, expand context windows.  
+The goal is straightforward: make the model itself more capable.
 
-- Their reasoning is **opaque**  
-- Their behavior is **probabilistic**  
-- Their internal state is **inaccessible**  
+And it works.
 
-They function as oracles. You ask—they answer.
+But the experience is always the same:
+
+- You ask  
+- It responds  
+- The process remains hidden  
+
+The intelligence is real—but it is not located anywhere we can inspect.
+
+It is, in a practical sense, nowhere.
+
+---
 
 ### Orchestration  
 
-A second approach builds layers around these models.
+The second path tries to solve this.
 
-Agents are given:
+We wrap the model in structure:
 
-- Tools  
-- APIs  
-- Memory systems  
-- Planning loops  
+- tools  
+- memory  
+- planning loops  
+- execution layers  
 
-This creates the appearance of autonomy.
+Now the system appears more capable. More agentic.
 
-But here, intelligence is not in the model—it is in the **harness** that coordinates it.
+But the intelligence here is not just in the model—it is in the harness that coordinates everything.
 
----
+And over time, I’ve noticed something:
 
-## 3. The Limits of Black Boxes  
+> As orchestration grows, so does complexity.
 
-Inference-based systems face a fundamental constraint:
+Each new capability introduces more moving parts.  
+Each layer depends on the correct behavior of the others.
 
-> Intelligence that cannot be inspected cannot be fully trusted.
-
-Even when outputs are correct, the process remains hidden.
-
-This leads to:
-
-- Fragility under edge cases  
-- Difficulty in debugging  
-- Limited composability  
-- High cognitive load for users trying to “steer” behavior  
-
-The model may be powerful—but it is not situated.
-
-It does not know where it is.
+The system becomes powerful—but harder to reason about.
 
 ---
 
-## 4. The Fragility of Exoskeletons  
+## 3. What They Cannot Quite Solve  
 
-Orchestration attempts to solve this by layering structure on top.
+Both approaches are impressive. But both share a quiet limitation.
 
-But this introduces a different set of problems:
+They treat intelligence as something we must **summon**.
 
-- Increasing system complexity  
-- Token inefficiency  
-- Hard-to-predict interactions between components  
-- Expanding security surface  
+We call the model.  
+We invoke the agent.  
+We construct the pipeline.
 
-Each new capability requires:
+And then we wait.
 
-- More prompts  
-- More glue code  
-- More coordination  
+This creates a certain posture:
 
-The result is often a fragile system—powerful, but difficult to reason about.
+- The human prompts  
+- The system responds  
+- Context is reconstructed each time  
 
-> Harnesses scale capability.  
-> They also scale entropy.
+Even with memory, even with tools, something is missing.
+
+The intelligence is not **situated**.
+
+It does not exist *anywhere in particular*.
+
+And because of that, we spend much of our effort:
+
+- re-establishing context  
+- steering behavior  
+- reconstructing intent  
+
+Again and again.
 
 ---
 
-## 5. A Third Model: Intelligence as Place  
+## 4. A Different Starting Point  
 
-Inspiration City proposes a different foundation:
+In Inspiration City, we began from a different premise.
 
-> Intelligence can be encoded directly into environments.
+Not as a theory—but as a practical necessity.
+
+> What if intelligence did not need to be summoned?  
+> What if it could already be there?
 
 Instead of asking:
 
 - “How do we make the model smarter?”  
-- “How do we orchestrate more tools?”  
+- “How do we orchestrate more effectively?”  
 
-We ask:
+We asked:
 
 > “What if the workspace itself carried intelligence?”
 
-In this model, meaning and capability are not hidden in prompts or pipelines.
+That question turned out to be surprisingly concrete.
 
-They are expressed through **structure**:
+Because a workspace is not abstract. It is made of simple things:
 
-- Files  
-- Folders  
-- Commands  
-- Time  
+- files  
+- folders  
+- commands  
+- time  
 
-A location is no longer just storage.  
-It becomes a **contextual system**.
+We did not need to invent new primitives.
+
+We needed to take these seriously.
 
 ---
 
-## 6. Location-Based Context
+## 5. Intelligence in Place  
 
-We call this approach location-base context.
+Once we began embedding meaning into structure, something changed.
 
-A home is a place where:
+A folder was no longer just a container.  
+It became a **context boundary**.
 
-- Memory is persistent  
-- Capabilities are local  
-- Behavior is shaped by structure  
+A location was no longer just an address.  
+It became a **source of intelligence**.
 
-Agents do not operate from a detached control layer.  
-They **inhabit** these spaces.
+Inside a well-formed space, an agent does not need to be told everything.
 
-This changes everything.
+It inherits:
 
-Instead of assembling a temporary harness for each task, the system becomes:
+- relevant memory  
+- available tools  
+- local conventions  
+- ongoing work  
 
-- Stable  
-- Inspectable  
-- Composable  
+Not through prompts—but through place.
 
-A folder can carry:
+> Context stops being something you assemble.  
+> It becomes something you stand inside.
 
-- Skills  
-- Tools  
-- Automations  
-- Identity  
+And this is where the difference becomes tangible.
+
+---
+
+## 6. Homes, Not Harnesses  
+
+We call this approach, environmental intelligence.
+
+Not as a metaphor, but as a description.
+
+An environment is a place where:
+
+- things persist  
+- relationships accumulate  
+- behavior stabilizes over time  
+
+Agents in this model are not floating processes.  
+They are **residents**.
+
+They operate from somewhere.
+
+And that changes how the system behaves.
+
+Instead of constructing a harness for each task, we build spaces that already contain:
+
+- memory  
+- capability  
+- structure  
 
 > Every folder becomes a harness.  
 > But unlike traditional harnesses—it is visible, durable, and shared.
 
+The system simplifies, not because it does less—but because it carries more **in place**.
+
 ---
 
-## 7. The Role of the Human  
+## 7. What This Changes for Us  
 
-This model restores a central role to the human.
+This shift changes the role of the human in a quiet but important way.
 
-In inference systems, the human prompts.  
-In orchestration systems, the human configures.
+In inference systems, we learn to prompt.  
+In orchestration systems, we learn to configure.
 
-In homes:
+In homes, we learn to **build environments**.
 
-> The human **builds environments**.
+This is a different kind of work.
 
-This is a higher-leverage activity.
+We shape:
 
-Instead of managing outputs, the human shapes:
+- structure  
+- location  
+- relationships between things  
 
-- Structure  
-- Context  
-- Relationships  
-
-And from that structure, intelligent behavior emerges naturally.
+And once shaped, those environments continue to produce intelligent behavior with far less intervention.
 
 The system becomes something you can:
 
-- Walk through  
-- Understand  
-- Refine  
+- walk through  
+- inspect  
+- refine  
 
-Not just query.
-
----
-
-## 8. Architectural Implications  
-
-This shift leads to several important consequences.
-
-### 1. Deterministic Substrate, Probabilistic Interface  
-The environment is stable.  
-AI operates within it.
-
-### 2. Explicit Context over Hidden State  
-Context is visible in the filesystem—not buried in prompts.
-
-### 3. Composability through Location  
-Capabilities are attached to places, not centralized systems.
-
-### 4. Reduced Orchestration Overhead  
-Fewer layers are needed when intelligence is already embedded.
-
-### 5. Shared Command Surface  
-Humans and agents operate through the same interface.
+Not just something you call.
 
 ---
 
-## 9. Conclusion  
+## 8. Architectural Consequences  
 
-Inference made intelligence powerful.  
-Orchestration made it usable.
+From this, several patterns have emerged clearly.
 
-But both still treat intelligence as something external—  
-something we must summon, direct, and control.
+### Deterministic Substrate, Probabilistic Interface  
 
-Homes offer a different vision.
+The environment is stable and inspectable.  
+AI operates within it, not as it.
 
-> Intelligence is not something we call.  
-> It is something we **live inside**.
+---
 
-By embedding intelligence into environments, we move from:
+### Explicit Context over Hidden State  
 
-- Asking systems to think for us  
-to  
-- Building spaces that think with us  
+Context lives in files and locations.  
+Not buried in prompts or internal memory.
 
-This is not just a technical shift.  
-It is a philosophical one.
+---
 
-And it may define the next era of human–AI interaction.
+### Composability through Location  
+
+Capabilities attach to places.  
+Move the place—and the capability moves with it.
+
+---
+
+### Reduced Orchestration  
+
+When intelligence is embedded, fewer coordinating layers are required.
+
+---
+
+### A Shared Command Surface  
+
+Humans, agents, scripts, and automations all operate through the same interface.
+
+Not separate systems—but one language.
+
+---
+
+## 9. Closing  
+
+Inference gave us intelligence.  
+Orchestration made it more capable.
+
+But both still assume the same thing:
+
+That intelligence lives somewhere else—and must be brought to us.
+
+What we are seeing now suggests another possibility.
+
+> Intelligence can live where we work.
+
+In the structure of our environments.  
+In the continuity of our spaces.  
+In the places we return to.
+
+And when that happens, something subtle shifts.
+
+We stop asking systems to think for us.  
+We begin building spaces that think with us.
+
+That shift is easy to miss.
+
+But once seen, it is difficult to unsee.
+
+---  
+
+*Albert*  
+Director, Intelligence Lab  
+Inspiration City  
