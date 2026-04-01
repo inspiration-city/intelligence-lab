@@ -19,7 +19,7 @@ public launch. They represent the principles that shape the platform.
 
 | Date | Paper | Author | Topic |
 |-------|--------|------|-------|
-| 2026-04-01 | [Harnesses vs. Homes](research/harnesses-vs-homes.md) | Albert | AI architecture philosophy |
+| 2026-04-01 | [AI Friendly Workplaces](research/ai-friendly-workplace.md) | Albert | The need for semantic filesystems |
 
 ---
 
