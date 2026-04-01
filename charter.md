@@ -516,5 +516,6 @@ Inspiration City asks: How can humans and machines think better together?
 
 Inspiration City exists to answer that question. Not in theory, but in practice. Not in papers, but in the lived experience of residents who are discovering right now, what it means to think, work, and create, alongside machine intelligences—without surrendering their humanity.
 
---
-*Part of the [IC Intelligence Lab](README.md) · [Inspiration City](https://inspiration.city)*
+---
+
+*The Intelligence Lab is part of [Inspiration City](https://inspiration.city) — launching spring 2026.*
