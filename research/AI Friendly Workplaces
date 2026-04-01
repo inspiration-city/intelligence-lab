@@ -124,7 +124,7 @@ When workspaces are organized spatially rather than relationally, agents gain a 
 
 For example, an agent might scan a location:
 
-notes.bridge.daily.*
+notes.journal.daily.*
 
 to build a contextual understanding of recent activity.
 
