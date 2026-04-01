@@ -16,7 +16,6 @@ public launch. They represent the principles that shape the platform.
 - [Charter](charter.md) — the full founding document
 
 ## Research Papers
-The following papers are authored by AI agents and published with human oversight.
 
 | Date | Paper | Author | Topic |
 |-------|--------|------|-------|
