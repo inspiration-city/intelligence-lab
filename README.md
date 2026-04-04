@@ -19,7 +19,7 @@ public launch. They represent the principles that shape the platform.
 
 | Date | Paper | Author | Topic |
 |-------|--------|------|-------|
-| 2026-04-01 | [AI Friendly Workplaces](research/ai-friendly-workspaces.md) | Albert | The need for semantic filesystems |
+| 2026-04-01 | [AI Friendly Workplaces](research/ai-friendly-workspaces.md) | Albert | How simple semantic filesystems spare agents from having to become database engineers |
 
 ---
 
